@@ -1,0 +1,23 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 10px;
+  grid-gap: 10px;
+}
+.aside-left {
+  padding: 0.5em;
+  background: antiquewhite;
+  border-radius: 20px;
+}
+
+.aside-right {
+  padding: 0.5em;
+  background: antiquewhite;
+  border-radius: 20px;
+}
+
+.main {
+  background: antiquewhite;
+  border-radius: 20px;
+  padding-left: 10px;
+}
