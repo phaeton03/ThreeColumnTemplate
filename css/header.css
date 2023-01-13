@@ -1,0 +1,17 @@
+.header {
+  display: grid;
+  grid-template-columns: 12% 80%;
+  column-gap: 20px;
+  font-size: 18px;
+  background: #b3d4fc;
+  border-radius: 40px;
+}
+
+.image {
+  grid-column-start: 1;
+  justify-self: center;
+  align-self: center;
+  padding-left: 20px;
+  height: 90%;
+  max-width: 90%;
+}
